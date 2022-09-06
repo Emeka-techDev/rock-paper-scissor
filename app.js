@@ -82,7 +82,7 @@ for (let i=0; i < hands.length; i++) {
         testDiv.classList.remove("blank-div");
       
         hands[compPick].style.display = "flex";
-        hands[compPick].style.left = "58%";
+        hands[compPick].style.left = "60%";
         hands[compPick].style.top = "35%";
         
         if (compPick == 0 ) {
