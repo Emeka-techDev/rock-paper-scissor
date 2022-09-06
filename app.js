@@ -47,8 +47,8 @@ for (let i=0; i < hands.length; i++) {
         triangle.style.display = "none";
         blockAll();
         this.style.display = "flex";
-        this.style.left ="420px";
-        this.style.top = "230px";
+        this.style.left ="30%";
+        this.style.top = "35%";
        
       
         if ( i == 0) {
@@ -82,8 +82,8 @@ for (let i=0; i < hands.length; i++) {
         testDiv.classList.remove("blank-div");
       
         hands[compPick].style.display = "flex";
-        hands[compPick].style.left = "800px";
-        hands[compPick].style.top = "230px";
+        hands[compPick].style.left = "58%";
+        hands[compPick].style.top = "35%";
         
         if (compPick == 0 ) {
             computerChoice = "scissor";
@@ -188,17 +188,17 @@ resetButton.addEventListener("click", function(){
         hands[i].style.zIndex = "1";
     }
     
-    scissor.style.top = "230px";
-    scissor.style.left = "470px";
+    scissor.style.top = "35%";
+    scissor.style.left = "34%";
     scissor.style.boxShadow = "none";
     
    
-    paper.style.top = "230px";
-    paper.style.left = "730px";
+    paper.style.top = "35%";
+    paper.style.left = "54%";
     paper.style.boxShadow = "none";
 
-    rock.style.top = "410px";
-    rock.style.left = "600px";
+    rock.style.top = "62%";
+    rock.style.left = "44%";
     rock.style.boxShadow = "none";
    
 

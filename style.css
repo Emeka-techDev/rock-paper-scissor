@@ -17,8 +17,8 @@ body {
     z-index: 2;
     border-radius: 5px;  
     position: absolute;
-    top: 130px ;
-    left: 500px; 
+    top: 19% ;
+    left: 36%; 
 }
 .rules-header {
     display: flex;
@@ -40,7 +40,7 @@ body {
     color:red
 } */
 .rules-diagram {
-    margin-left: 40px;
+    margin-left: 3%;
 }
 
 .header-box {
@@ -97,7 +97,7 @@ body {
 .picked {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 5%;
     font-size: 20px;
     font-weight: 600;
     color: white;
@@ -105,8 +105,8 @@ body {
 }
 
 .user-picked {
-    padding-left: 30px;
-    margin-right: 260px;
+    padding-left: 2%;
+    margin-right: 19%;
 }
 
 .blank-div {
@@ -121,11 +121,11 @@ body {
 }
 
 .triangle {
-    margin-top: 80px;
+    margin-top: 5%;
     margin-left: 38%;
 }
 
-p{
+p {
     margin: 0;
 
 }
@@ -133,10 +133,11 @@ p{
 
 .text-position {
     position: absolute;
-    left: 630px;
-    top: 300px;
+    left: 46%;
+    top: 41%;
     display: none;
 }
+
 .some-text {
     display: flex;
     justify-content: center;
@@ -162,8 +163,8 @@ p{
 .scissors{
     border: 20px solid yellow;
     position: absolute;
-    left: 470px;
-    top: 230px;
+    left: 34%;
+    top: 35%;
     /* box-shadow :  0px 0px 5px 20px pink, 0px 0px 10px 40px green, 0px 0px 15px 60px  orange; */
 
 }
@@ -172,15 +173,15 @@ p{
 .paper {
     border: 20px solid blue;
     position: absolute;
-    top: 230px;
-    left: 730px;
+    top: 35%;
+    left: 54%;
 }
 
 .rock {
     border: 20px solid red;
     position: absolute;
-    top: 410px;
-    left: 600px;
+    top: 62%;
+    left: 44%;
 }
 
 
